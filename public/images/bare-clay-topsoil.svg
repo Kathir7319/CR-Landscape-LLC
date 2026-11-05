@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dustSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8a698"/>
+      <stop offset="60%" stop-color="#d9ccc1"/>
+      <stop offset="100%" stop-color="#ede3dc"/>
+    </linearGradient>
+    <linearGradient id="redClayGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a64b2a"/>
+      <stop offset="50%" stop-color="#8c3818"/>
+      <stop offset="100%" stop-color="#6e2b13"/>
+    </linearGradient>
+    <linearGradient id="rutShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a1806"/>
+      <stop offset="100%" stop-color="#300d02"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Arid Construction Sky -->
+  <rect width="1200" height="300" fill="url(#dustSky)"/>
+
+  <!-- Unfinished New Construction Foundation in Distance -->
+  <rect x="250" y="210" width="700" height="90" fill="#a0988e"/>
+  <polygon points="230,210 600,120 970,210" fill="#756b62"/>
+  <rect x="350" y="240" width="80" height="60" fill="#4d4640"/>
+  <rect x="560" y="230" width="80" height="70" fill="#4d4640"/>
+  <rect x="760" y="240" width="80" height="60" fill="#4d4640"/>
+
+  <!-- Unfinished Foundation Trench -->
+  <polygon points="180,300 1020,300 1150,380 50,380" fill="#5c2612"/>
+
+  <!-- Raw Compacted North Carolina Red Clay Field -->
+  <rect x="0" y="360" width="1200" height="440" fill="url(#redClayGrad)"/>
+
+  <!-- Construction Equipment Tire Ruts & Heavy Tracks -->
+  <g fill="url(#rutShadow)">
+    <!-- Left Track -->
+    <polygon points="120,380 180,380 320,800 240,800"/>
+    <polygon points="200,380 250,380 430,800 360,800"/>
+
+    <!-- Right Track -->
+    <polygon points="760,380 810,380 920,800 860,800"/>
+    <polygon points="830,380 870,380 1030,800 970,800"/>
+  </g>
+
+  <!-- Water Erosion Gully (Rain Runoff Trenches) -->
+  <path d="M 520,370 Q 560,450 510,540 T 580,690 T 500,800" fill="none" stroke="#401506" stroke-width="26" stroke-linecap="round"/>
+  <path d="M 520,370 Q 560,450 510,540 T 580,690 T 500,800" fill="none" stroke="#260c03" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Stagnant Muddy Water Pooling -->
+  <ellipse cx="530" cy="620" rx="90" ry="30" fill="#523218" opacity="0.8"/>
+  <ellipse cx="530" cy="620" rx="70" ry="20" fill="#3b230f" opacity="0.9"/>
+
+  <!-- Red Clay Clods & Rocks -->
+  <g fill="#5e220d">
+    <ellipse cx="380" cy="460" rx="20" ry="12"/>
+    <ellipse cx="440" cy="510" rx="30" ry="16"/>
+    <ellipse cx="680" cy="480" rx="25" ry="15"/>
+    <ellipse cx="730" cy="590" rx="40" ry="22"/>
+    <ellipse cx="310" cy="670" rx="35" ry="18"/>
+    <ellipse cx="880" cy="690" rx="45" ry="24"/>
+  </g>
+
+  <!-- Barren Dust Vignette -->
+  <rect width="1200" height="800" fill="#4d1a08" opacity="0.1"/>
+</svg>

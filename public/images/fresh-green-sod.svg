@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brightSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a88e9"/>
+      <stop offset="60%" stop-color="#7ec8f8"/>
+      <stop offset="100%" stop-color="#dbf0ff"/>
+    </linearGradient>
+    <linearGradient id="sodRollGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#44ba6d"/>
+      <stop offset="100%" stop-color="#247843"/>
+    </linearGradient>
+    <linearGradient id="sodRollAlt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#349c58"/>
+      <stop offset="100%" stop-color="#185c31"/>
+    </linearGradient>
+    <linearGradient id="homeExterior" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f2ede4"/>
+      <stop offset="100%" stop-color="#ded4c5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clear Bright Blue Sky -->
+  <rect width="1200" height="320" fill="url(#brightSky)"/>
+
+  <!-- Finished Luxury Wake Forest Home Architecture -->
+  <polygon points="200,320 200,190 320,110 440,190 440,320" fill="#e8e2d8"/>
+  <polygon points="420,320 420,150 640,60 860,150 860,320" fill="url(#homeExterior)"/>
+  <polygon points="840,320 840,190 960,110 1080,190 1080,320" fill="#e8e2d8"/>
+
+  <!-- Roof Shingles -->
+  <polygon points="410,155 640,55 870,155" fill="#3b3b3b"/>
+  <polygon points="190,195 320,105 450,195" fill="#4d4d4d"/>
+  <polygon points="830,195 960,105 1090,195" fill="#4d4d4d"/>
+
+  <!-- Architectural Windows with Warm Reflection -->
+  <rect x="490" y="180" width="70" height="90" fill="#ffffff" stroke="#222" stroke-width="4"/>
+  <rect x="700" y="180" width="70" height="90" fill="#ffffff" stroke="#222" stroke-width="4"/>
+  <rect x="580" y="230" width="80" height="90" fill="#4a2e18"/>
+
+  <!-- Crisp Modern Foundation Paver Perimeter -->
+  <polygon points="100,320 1100,320 1140,350 60,350" fill="#c4bead"/>
+
+  <!-- Laser-Leveled Fresh NC Zeon Zoysia Sod Field -->
+  <rect x="0" y="340" width="1200" height="460" fill="url(#sodRollGreen)"/>
+
+  <!-- Precision Staggered Brick-Pattern Sod Seams (Farm-Fresh Tight Seams) -->
+  <g stroke="#1b5c32" stroke-width="2" stroke-opacity="0.4">
+    <!-- Horizontal Seam Rows with Laser Flat Grading Perspective -->
+    <line x1="0" y1="380" x2="1200" y2="380"/>
+    <line x1="0" y1="430" x2="1200" y2="430"/>
+    <line x1="0" y1="490" x2="1200" y2="490"/>
+    <line x1="0" y1="560" x2="1200" y2="560"/>
+    <line x1="0" y1="640" x2="1200" y2="640"/>
+    <line x1="0" y1="730" x2="1200" y2="730"/>
+
+    <!-- Vertical Staggered Seams -->
+    <!-- Row 1 -->
+    <line x1="180" y1="340" x2="180" y2="380"/>
+    <line x1="450" y1="340" x2="450" y2="380"/>
+    <line x1="720" y1="340" x2="720" y2="380"/>
+    <line x1="990" y1="340" x2="990" y2="380"/>
+
+    <!-- Row 2 -->
+    <line x1="310" y1="380" x2="310" y2="430"/>
+    <line x1="580" y1="380" x2="580" y2="430"/>
+    <line x1="850" y1="380" x2="850" y2="430"/>
+    <line x1="1120" y1="380" x2="1120" y2="430"/>
+
+    <!-- Row 3 -->
+    <line x1="140" y1="430" x2="140" y2="490"/>
+    <line x1="440" y1="430" x2="440" y2="490"/>
+    <line x1="740" y1="430" x2="740" y2="490"/>
+    <line x1="1040" y1="430" x2="1040" y2="490"/>
+
+    <!-- Row 4 -->
+    <line x1="280" y1="490" x2="280" y2="560"/>
+    <line x1="600" y1="490" x2="600" y2="560"/>
+    <line x1="920" y1="490" x2="920" y2="560"/>
+
+    <!-- Row 5 -->
+    <line x1="120" y1="560" x2="120" y2="640"/>
+    <line x1="480" y1="560" x2="480" y2="640"/>
+    <line x1="840" y1="560" x2="840" y2="640"/>
+    <line x1="1180" y1="560" x2="1180" y2="640"/>
+
+    <!-- Row 6 -->
+    <line x1="320" y1="640" x2="320" y2="730"/>
+    <line x1="720" y1="640" x2="720" y2="730"/>
+    <line x1="1080" y1="640" x2="1080" y2="730"/>
+  </g>
+
+  <!-- Alternating Rich Sod Roll Texture Tones -->
+  <polygon points="0,560 480,560 480,640 0,640" fill="url(#sodRollAlt)" opacity="0.3"/>
+  <polygon points="840,560 1200,560 1200,640 840,640" fill="url(#sodRollAlt)" opacity="0.3"/>
+  <polygon points="320,640 720,640 720,730 320,730" fill="url(#sodRollAlt)" opacity="0.3"/>
+
+  <!-- High-Tech Automated Oscillating Sprinkler Mist -->
+  <g opacity="0.5">
+    <ellipse cx="600" cy="520" rx="300" ry="120" fill="none" stroke="#e0f4ff" stroke-width="4" stroke-dasharray="8 12"/>
+    <ellipse cx="600" cy="520" rx="420" ry="180" fill="none" stroke="#e0f4ff" stroke-width="2" stroke-dasharray="6 14"/>
+  </g>
+
+  <!-- Golden Glow of Established Perfection -->
+  <circle cx="1100" cy="80" r="80" fill="#fff9cf" opacity="0.6"/>
+</svg>

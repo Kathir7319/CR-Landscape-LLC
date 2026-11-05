@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cloudySlope" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9ea8a0"/>
+      <stop offset="100%" stop-color="#c5ccc6"/>
+    </linearGradient>
+    <linearGradient id="slopeDirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#54483a"/>
+      <stop offset="100%" stop-color="#362d22"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="280" fill="url(#cloudySlope)"/>
+
+  <!-- Decaying Rotten Wood Retaining Wall (Leaning / Collapsing) -->
+  <g fill="#423425" stroke="#261d14" stroke-width="3">
+    <!-- Leaning Posts -->
+    <polygon points="120,260 145,260 160,490 135,490" transform="rotate(-6 140 375)"/>
+    <polygon points="320,250 345,250 350,510 325,510" transform="rotate(4 335 380)"/>
+    <polygon points="540,270 565,270 555,500 530,500" transform="rotate(-8 550 385)"/>
+    <polygon points="760,255 785,255 805,520 780,520" transform="rotate(7 780 385)"/>
+    <polygon points="980,265 1005,265 995,500 970,500" transform="rotate(-5 990 380)"/>
+
+    <!-- Broken Horizontal Sleepers -->
+    <polygon points="80,290 1050,300 1050,335 80,325"/>
+    <polygon points="70,350 1060,370 1060,405 70,385"/>
+    <polygon points="60,420 1040,440 1040,475 60,455"/>
+  </g>
+
+  <!-- Untamed Eroded Soil Slope -->
+  <path d="M 0,380 Q 400,420 800,390 T 1200,430 L 1200,800 L 0,800 Z" fill="url(#slopeDirt)"/>
+
+  <!-- Wild Tangled Thorny Briars & Overgrown Kudzu/Vines -->
+  <g stroke="#26451e" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M 50,750 Q 120,520 220,440 T 360,350 T 450,260"/>
+    <path d="M 180,780 Q 280,610 240,480 T 150,360 T 90,270"/>
+    <path d="M 400,760 Q 480,550 600,450 T 750,340 T 680,220"/>
+    <path d="M 650,790 Q 720,600 850,470 T 960,330 T 1080,240"/>
+    <path d="M 880,770 Q 940,580 910,440 T 1020,320 T 1140,280"/>
+  </g>
+
+  <!-- Dense Leaves & Thorn Clumps -->
+  <g fill="#335926">
+    <circle cx="220" cy="440" r="35"/>
+    <circle cx="280" cy="490" r="45"/>
+    <circle cx="160" cy="380" r="40"/>
+    <circle cx="480" cy="510" r="55"/>
+    <circle cx="560" cy="460" r="60"/>
+    <circle cx="720" cy="490" r="50"/>
+    <circle cx="820" cy="450" r="65"/>
+    <circle cx="960" cy="470" r="55"/>
+    <circle cx="1060" cy="410" r="45"/>
+    <circle cx="340" cy="620" r="70"/>
+    <circle cx="680" cy="650" r="85"/>
+  </g>
+
+  <!-- Foreground Chaotic Brush -->
+  <path d="M 0,800 Q 200,600 450,650 Q 800,580 1200,680 L 1200,800 Z" fill="#203318"/>
+</svg>

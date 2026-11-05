@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGradLush" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a90e2"/>
+      <stop offset="50%" stop-color="#87ceeb"/>
+      <stop offset="100%" stop-color="#e0f4ff"/>
+    </linearGradient>
+    <linearGradient id="turfLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3cb371"/>
+      <stop offset="100%" stop-color="#2d7a4b"/>
+    </linearGradient>
+    <linearGradient id="turfDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#246b3f"/>
+      <stop offset="100%" stop-color="#144326"/>
+    </linearGradient>
+    <linearGradient id="concreteGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#dedede"/>
+      <stop offset="50%" stop-color="#f0f0f0"/>
+      <stop offset="100%" stop-color="#cfcfcf"/>
+    </linearGradient>
+    <linearGradient id="mulchBed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b2518"/>
+      <stop offset="100%" stop-color="#1f1109"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clear Vibrant Piedmont Sky -->
+  <rect width="1200" height="360" fill="url(#skyGradLush)"/>
+
+  <!-- Luxury Estate Architecture (Backdrop Silhouette) -->
+  <g fill="#2c3e50" opacity="0.85">
+    <polygon points="120,360 120,240 220,170 320,240 320,360"/>
+    <polygon points="300,360 300,210 460,130 620,210 620,360"/>
+    <polygon points="600,360 600,240 700,170 800,240 800,360"/>
+    <rect x="360" y="240" width="60" height="80" fill="#f5f5f5" opacity="0.8"/>
+    <rect x="500" y="240" width="60" height="80" fill="#f5f5f5" opacity="0.8"/>
+  </g>
+
+  <!-- Sculpted Ornamental Trees & Hedges Behind Bed -->
+  <g fill="#1a472a">
+    <circle cx="100" cy="330" r="45"/>
+    <circle cx="160" cy="325" r="50"/>
+    <circle cx="750" cy="330" r="50"/>
+    <circle cx="820" cy="320" r="60"/>
+    <circle cx="890" cy="330" r="55"/>
+  </g>
+
+  <!-- Deep Trench Hardwood Mulch Perimeter Bed -->
+  <path d="M 0,380 Q 250,340 500,360 T 1000,340 Q 1100,340 1200,360 L 1200,430 Q 900,400 500,410 Q 250,420 0,440 Z" fill="url(#mulchBed)"/>
+
+  <!-- Sculpted Emerald Boxwoods with Crisp Highlights -->
+  <g>
+    <!-- Shrub 1 -->
+    <ellipse cx="180" cy="390" rx="40" ry="30" fill="#2d7a4b"/>
+    <ellipse cx="180" cy="385" rx="32" ry="24" fill="#3cb371"/>
+    <!-- Shrub 2 -->
+    <ellipse cx="320" cy="385" rx="45" ry="32" fill="#2d7a4b"/>
+    <ellipse cx="320" cy="380" rx="35" ry="25" fill="#3cb371"/>
+    <!-- Shrub 3 -->
+    <ellipse cx="680" cy="385" rx="45" ry="32" fill="#2d7a4b"/>
+    <ellipse cx="680" cy="380" rx="35" ry="25" fill="#3cb371"/>
+    <!-- Shrub 4 -->
+    <ellipse cx="850" cy="380" rx="50" ry="35" fill="#2d7a4b"/>
+    <ellipse cx="850" cy="375" rx="40" ry="28" fill="#3cb371"/>
+  </g>
+
+  <!-- Crisp Mechanical Bed Trench Edge Line (Spade Cut) -->
+  <path d="M 0,440 Q 250,420 500,410 Q 900,400 1200,430" fill="none" stroke="#120a05" stroke-width="5"/>
+
+  <!-- Country Club Precision Turf Mowing Stripes (Alternating Light & Dark Rollers) -->
+  <!-- Base Ground -->
+  <rect x="0" y="420" width="1200" height="380" fill="url(#turfDark)"/>
+
+  <!-- Alternating Roller Stripes with Perspective -->
+  <polygon points="0,420 80,420 160,800 0,800" fill="url(#turfLight)"/>
+  <polygon points="160,420 250,420 340,800 170,800" fill="url(#turfLight)"/>
+  <polygon points="330,420 430,420 540,800 360,800" fill="url(#turfLight)"/>
+  <polygon points="510,420 620,420 740,800 550,800" fill="url(#turfLight)"/>
+  <polygon points="700,420 810,420 950,800 750,800" fill="url(#turfLight)"/>
+  <polygon points="890,420 1000,420 1150,800 960,800" fill="url(#turfLight)"/>
+  <polygon points="1080,420 1200,420 1200,800 1160,800" fill="url(#turfLight)"/>
+
+  <!-- Left Precision Concrete Curb Definition Edge -->
+  <polygon points="0,520 70,520 130,800 0,800" fill="url(#concreteGrad)"/>
+  <line x1="70" y1="520" x2="130" y2="800" stroke="#888888" stroke-width="4"/>
+  <!-- Razor Edging Groove -->
+  <line x1="74" y1="520" x2="134" y2="800" stroke="#0a2615" stroke-width="4"/>
+
+  <!-- Golden Afternoon Sunbeam Overlay -->
+  <circle cx="1080" cy="120" r="70" fill="#fff9d2" opacity="0.45"/>
+</svg>

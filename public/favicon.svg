@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#092415"/>
+      <stop offset="100%" stop-color="#06190e"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf0cd"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#aa820a"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2d7a4b"/>
+      <stop offset="100%" stop-color="#78f000"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M 250,25 L 435,95 L 435,280 C 435,385 345,455 250,485 C 155,455 65,385 65,280 L 65,95 Z" 
+        fill="url(#shieldGrad)" stroke="url(#goldGrad)" stroke-width="16" stroke-linejoin="round"/>
+
+  <!-- C -->
+  <path d="M 220,150 C 160,150 130,190 130,250 C 130,310 160,350 220,350 C 245,350 265,340 275,330 L 260,300 C 250,308 238,314 220,314 C 182,314 165,285 165,250 C 165,215 182,186 220,186 C 240,186 252,192 262,202 L 280,172 C 265,158 245,150 220,150 Z" 
+        fill="url(#goldGrad)"/>
+
+  <!-- R -->
+  <path d="M 265,155 L 330,155 C 365,155 385,175 385,208 C 385,232 372,250 350,258 L 392,348 L 355,348 L 318,265 L 298,265 L 298,348 L 265,348 Z M 298,185 L 298,235 L 326,235 C 342,235 352,226 352,210 C 352,194 342,185 326,185 Z" 
+        fill="url(#goldGrad)"/>
+
+  <!-- Leaf Accent -->
+  <path d="M 240,320 C 240,260 270,180 320,130 C 310,170 290,240 255,290 C 275,250 255,290 250,330 Z" 
+        fill="url(#leafGrad)"/>
+</svg>

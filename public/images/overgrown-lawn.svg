@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGradOver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8c6b9"/>
+      <stop offset="60%" stop-color="#d4ded5"/>
+      <stop offset="100%" stop-color="#e8ede9"/>
+    </linearGradient>
+    <linearGradient id="clayPatch" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a85934"/>
+      <stop offset="100%" stop-color="#7e3b1a"/>
+    </linearGradient>
+    <linearGradient id="dryWeed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a69f4b"/>
+      <stop offset="100%" stop-color="#555823"/>
+    </linearGradient>
+    <linearGradient id="unrulyGrass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6e8a4a"/>
+      <stop offset="100%" stop-color="#3d5727"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky & Overcast Ambient -->
+  <rect width="1200" height="350" fill="url(#skyGradOver)"/>
+  
+  <!-- Dilapidated Wooden Fence & Background Tree Line -->
+  <g opacity="0.6">
+    <path d="M 0,280 Q 200,240 400,280 T 800,260 T 1200,290 L 1200,400 L 0,400 Z" fill="#465a3d"/>
+    <path d="M 0,290 L 1200,290 L 1200,315 L 0,315 Z" fill="#7d6a52" opacity="0.7"/>
+    <path d="M 0,330 L 1200,330 L 1200,355 L 0,355 Z" fill="#6d5a42" opacity="0.7"/>
+  </g>
+
+  <!-- Ground Plane (Uneven Red Clay & Patchy Topsoil) -->
+  <path d="M 0,360 Q 300,340 600,370 T 1200,350 L 1200,800 L 0,800 Z" fill="#4a5234"/>
+
+  <!-- Exposed Red Clay Soil Patches & Mud Erosion -->
+  <ellipse cx="320" cy="560" rx="220" ry="85" fill="url(#clayPatch)"/>
+  <ellipse cx="850" cy="510" rx="260" ry="95" fill="url(#clayPatch)"/>
+  <ellipse cx="600" cy="690" rx="350" ry="110" fill="url(#clayPatch)"/>
+  <ellipse cx="140" cy="720" rx="160" ry="60" fill="url(#clayPatch)"/>
+
+  <!-- Patchy, Uncut Wild Crabgrass Blades & Weeds (Layer 1) -->
+  <g fill="url(#unrulyGrass)">
+    <!-- Cluster Left -->
+    <path d="M 50,600 Q 30,480 20,440 Q 60,510 70,600 Z"/>
+    <path d="M 80,620 Q 95,450 110,410 Q 115,500 100,620 Z"/>
+    <path d="M 120,610 Q 150,470 170,430 Q 155,520 140,610 Z"/>
+    <path d="M 160,630 Q 190,490 220,450 Q 190,530 170,630 Z"/>
+
+    <!-- Cluster Center -->
+    <path d="M 450,580 Q 430,450 410,400 Q 460,490 470,580 Z"/>
+    <path d="M 490,610 Q 520,440 540,390 Q 535,500 510,610 Z"/>
+    <path d="M 530,600 Q 570,460 600,420 Q 570,510 550,600 Z"/>
+    
+    <!-- Cluster Right -->
+    <path d="M 980,620 Q 960,470 940,410 Q 990,500 1010,620 Z"/>
+    <path d="M 1040,600 Q 1070,440 1100,380 Q 1085,500 1060,600 Z"/>
+    <path d="M 1110,630 Q 1140,480 1170,430 Q 1140,530 1120,630 Z"/>
+  </g>
+
+  <!-- Tall Yellow Dandelion Stalks & Wild Chicory Seed Heads -->
+  <g stroke="#9e913a" stroke-width="4" stroke-linecap="round">
+    <path d="M 240,620 Q 230,470 215,410"/>
+    <circle cx="215" cy="405" r="10" fill="#d4c84a" stroke="none"/>
+    
+    <path d="M 410,640 Q 430,480 445,420"/>
+    <circle cx="447" cy="415" r="12" fill="#d4c84a" stroke="none"/>
+
+    <path d="M 720,600 Q 710,460 700,390"/>
+    <circle cx="698" cy="385" r="14" fill="#e8df6a" stroke="none"/>
+
+    <path d="M 890,630 Q 910,470 930,410"/>
+    <circle cx="932" cy="405" r="11" fill="#d4c84a" stroke="none"/>
+  </g>
+
+  <!-- Foreground Wild Brambles & Dead Thatch -->
+  <g fill="url(#dryWeed)" opacity="0.8">
+    <path d="M 0,800 Q 80,680 140,640 Q 110,740 0,800 Z"/>
+    <path d="M 280,800 Q 320,690 350,650 Q 340,730 310,800 Z"/>
+    <path d="M 780,800 Q 820,670 850,630 Q 840,720 810,800 Z"/>
+    <path d="M 1050,800 Q 1100,680 1140,640 Q 1110,740 1080,800 Z"/>
+  </g>
+
+  <!-- Atmospheric Vignette Banner (Before Notice) -->
+  <rect x="0" y="0" width="1200" height="800" fill="#2d1c08" opacity="0.12"/>
+</svg>
